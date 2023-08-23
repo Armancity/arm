@@ -1,0 +1,30 @@
+*{
+    background-color: antiquewhite;
+}
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .book {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .book img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
